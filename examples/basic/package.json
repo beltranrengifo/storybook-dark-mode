@@ -2,7 +2,7 @@
   "name": "basic",
   "private": true,
   "scripts": {
-    "start": "../../node_modules/.bin/start-storybook",
+    "start": "../../node_modules/.bin/start-storybook --ci",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
